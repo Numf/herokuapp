@@ -1,4 +1,5 @@
 <?php
+/*
 // HTTP
 define('HTTP_SERVER', 'http://' . $_SERVER['SERVER_NAME'].'/');
 
@@ -27,3 +28,4 @@ define('DB_PASSWORD', $db["pass"]);
 define('DB_DATABASE', trim($db["path"],"/"));
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
+*/
