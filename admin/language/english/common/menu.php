@@ -6,6 +6,7 @@ $_['text_api']                         = 'API';
 $_['text_attribute']                   = 'Attributes';
 $_['text_attribute_group']             = 'Attribute Groups';
 $_['text_backup']                      = 'Backup / Restore';
+$_['text_export_import']               = 'Export / Import';
 $_['text_banner']                      = 'Banners';
 $_['text_captcha']                     = 'Captcha';
 $_['text_catalog']                     = 'Catalog';
