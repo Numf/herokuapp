@@ -129,6 +129,9 @@
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
             <?php } ?>
             <li><?php echo $text_model; ?> <?php echo $model; ?></li>
+            <?php /*if ($reward) { ?>
+            <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
+            <?php } */?>
             <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
           </ul>
           <?php if ($price) { ?>
@@ -146,6 +149,9 @@
             <?php if ($tax) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
             <?php } ?>
+            <?php /* if ($points) { ?>
+            <li><?php echo $text_points; ?> <?php echo $points; ?></li>
+            <?php } */?>
             <?php if ($discounts) { ?>
             <li>
               <hr>
