@@ -35,7 +35,7 @@
             <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li>
             <li><a href="#tab-special" data-toggle="tab"><?php echo $tab_special; ?></a></li>
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
-            <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li>
+            <!-- <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li> -->
             <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
           </ul>
           <div class="tab-content">
@@ -841,6 +841,7 @@
                 </table>
               </div>
             </div>
+            <!--
             <div class="tab-pane" id="tab-reward">
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-points"><span data-toggle="tooltip" title="<?php echo $help_points; ?>"><?php echo $entry_points; ?></span></label>
@@ -867,6 +868,7 @@
                 </table>
               </div>
             </div>
+            -->
             <div class="tab-pane" id="tab-design">
               <div class="table-responsive">
                 <table class="table table-bordered table-hover">
