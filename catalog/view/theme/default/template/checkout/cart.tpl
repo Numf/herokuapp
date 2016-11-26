@@ -50,9 +50,13 @@
             <tbody>
               <?php foreach ($products as $product) { ?>
               <tr>
-                <td class="text-center"><?php if ($product['thumb']) { ?>
+                <td class="text-center">
+{*
+                  <?php if ($product['thumb']) { ?>
                   <a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-thumbnail" /></a>
-                  <?php } ?></td>
+                  <?php } ?>
+*}
+                </td>
                 <td class="text-left"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                   <?php if (!$product['stock']) { ?>
                   <span class="text-danger">***</span>
